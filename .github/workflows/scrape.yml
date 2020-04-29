@@ -1,0 +1,21 @@
+name: Scrape data
+
+on:
+  schedule:
+    - cron:  '0 */3 * * *' # every three hours
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+
+    - name: Build
+      run: npm install
+  
+    - name: Scrape
+      run: npm run scrape
+
+    - uses: mikeal/publish-to-github-action@master
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
