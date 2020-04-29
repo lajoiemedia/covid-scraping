@@ -3,6 +3,7 @@ const fs = require("fs");
 const path = require("path");
 const { zonedTimeToUtc, utcToZonedTime, format } = require("date-fns-tz");
 const cheerio = require("cheerio");
+const crypto = require("crypto");
 
 const TIMEZONE = "America/Montreal";
 
@@ -47,6 +48,37 @@ function getDateFromFileName(fileName) {
       path.join(situationDir, `${getCurrentDate()} quebec situation.html`),
       response.data,
       { encoding: "utf8" }
+    );
+  }
+})();
+
+(async function () {
+  const situationDir = path.join(__dirname, "raw", "quebec-chsld");
+
+  const response = await axios.get(
+    "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/Tableau-milieux-de-vie-COVID-19.pdf",
+    { responseType: "arraybuffer" }
+  );
+
+  let oldfiles = fs
+    .readdirSync(situationDir)
+    .map((d) => path.join(situationDir, d))
+    .filter((d) => fs.statSync(d).isFile())
+    .slice()
+    .sort();
+
+  let isRepeat = false;
+  if (oldfiles.length > 0) {
+    let mostrecent = fs.readFileSync(oldfiles[oldfiles.length - 1]);
+    let sum1 = crypto.createHash("md5").update(mostrecent).digest("hex");
+    let sum2 = crypto.createHash("md5").update(response.data).digest("hex");
+    isRepeat = sum1 === sum2;
+  }
+
+  if (!isRepeat) {
+    fs.writeFileSync(
+      path.join(situationDir, `${getCurrentDate()} quebec chsld.pdf`),
+      response.data
     );
   }
 })();
