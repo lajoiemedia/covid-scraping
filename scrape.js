@@ -24,7 +24,7 @@ function getDateFromFileName(fileName) {
   const situationDir = path.join(__dirname, "raw", "quebec-situation");
 
   const response = await axios.get(
-    "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/#c47900"
+    "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/"
   );
 
   let oldfiles = fs
@@ -79,6 +79,38 @@ function getDateFromFileName(fileName) {
     fs.writeFileSync(
       path.join(situationDir, `${getCurrentDate()} quebec chsld.pdf`),
       response.data
+    );
+  }
+})();
+
+(async function () {
+  const situationDir = path.join(__dirname, "raw", "montreal-situation");
+
+  const response = await axios.get(
+    "https://santemontreal.qc.ca/population/coronavirus-covid-19/"
+  );
+
+  let oldfiles = fs
+    .readdirSync(situationDir)
+    .map((d) => path.join(situationDir, d))
+    .filter((d) => fs.statSync(d).isFile())
+    .slice()
+    .sort();
+  let isRepeat = false;
+  if (oldfiles.length > 0) {
+    let mostrecent = fs.readFileSync(oldfiles[oldfiles.length - 1], {
+      encoding: "utf8",
+    });
+    let $1 = cheerio.load(mostrecent);
+    let $2 = cheerio.load(response.data);
+    isRepeat = $1(".content").html() === $2(".content").html();
+  }
+
+  if (!isRepeat) {
+    fs.writeFileSync(
+      path.join(situationDir, `${getCurrentDate()} montreal situation.html`),
+      response.data,
+      { encoding: "utf8" }
     );
   }
 })();
