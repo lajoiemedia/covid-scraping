@@ -1,0 +1,457 @@
+[
+  {
+    "region": "Ahuntsic–Cartierville",
+    "series": [
+      {
+        "date_est": "2020-04-29 19:24",
+        "millis": 1588202640000,
+        "cas": 1064,
+        "cas_pct": 9,
+        "taux": 792.6,
+        "imprecis": false
+      }
+    ]
+  },
+  {
+    "region": "Anjou",
+    "series": [
+      {
+        "date_est": "2020-04-29 19:24",
+        "millis": 1588202640000,
+        "cas": 288,
+        "cas_pct": 2.4,
+        "taux": 673,
+        "imprecis": false
+      }
+    ]
+  },
+  {
+    "region": "Baie-D'Urfé",
+    "series": [
+      {
+        "date_est": "2020-04-29 19:24",
+        "millis": 1588202640000,
+        "cas": 6,
+        "cas_pct": 0.1,
+        "taux": null,
+        "imprecis": false
+      }
+    ]
+  },
+  {
+    "region": "Beaconsfield",
+    "series": [
+      {
+        "date_est": "2020-04-29 19:24",
+        "millis": 1588202640000,
+        "cas": 25,
+        "cas_pct": 0.2,
+        "taux": 129.4,
+        "imprecis": true
+      }
+    ]
+  },
+  {
+    "region": "Côte-des-Neiges–Notre-Dame-de-Grâce",
+    "series": [
+      {
+        "date_est": "2020-04-29 19:24",
+        "millis": 1588202640000,
+        "cas": 1137,
+        "cas_pct": 9.6,
+        "taux": 682.8,
+        "imprecis": false
+      }
+    ]
+  },
+  {
+    "region": "Côte-Saint-Luc",
+    "series": [
+      {
+        "date_est": "2020-04-29 19:24",
+        "millis": 1588202640000,
+        "cas": 346,
+        "cas_pct": 2.9,
+        "taux": 1066.3,
+        "imprecis": false
+      }
+    ]
+  },
+  {
+    "region": "Dollard-des-Ormeaux",
+    "series": [
+      {
+        "date_est": "2020-04-29 19:24",
+        "millis": 1588202640000,
+        "cas": 136,
+        "cas_pct": 1.1,
+        "taux": 278.1,
+        "imprecis": false
+      }
+    ]
+  },
+  {
+    "region": "Dorval",
+    "series": [
+      {
+        "date_est": "2020-04-29 19:24",
+        "millis": 1588202640000,
+        "cas": 78,
+        "cas_pct": 0.7,
+        "taux": 411,
+        "imprecis": false
+      }
+    ]
+  },
+  {
+    "region": "Hampstead",
+    "series": [
+      {
+        "date_est": "2020-04-29 19:24",
+        "millis": 1588202640000,
+        "cas": 38,
+        "cas_pct": 0.3,
+        "taux": 545,
+        "imprecis": true
+      }
+    ]
+  },
+  {
+    "region": "Kirkland",
+    "series": [
+      {
+        "date_est": "2020-04-29 19:24",
+        "millis": 1588202640000,
+        "cas": 27,
+        "cas_pct": 0.2,
+        "taux": 134,
+        "imprecis": true
+      }
+    ]
+  },
+  {
+    "region": "Lachine",
+    "series": [
+      {
+        "date_est": "2020-04-29 19:24",
+        "millis": 1588202640000,
+        "cas": 157,
+        "cas_pct": 1.3,
+        "taux": 352.9,
+        "imprecis": false
+      }
+    ]
+  },
+  {
+    "region": "LaSalle",
+    "series": [
+      {
+        "date_est": "2020-04-29 19:24",
+        "millis": 1588202640000,
+        "cas": 497,
+        "cas_pct": 4.2,
+        "taux": 646.7,
+        "imprecis": false
+      }
+    ]
+  },
+  {
+    "region": "L'Île-Bizard–Sainte-Geneviève",
+    "series": [
+      {
+        "date_est": "2020-04-29 19:24",
+        "millis": 1588202640000,
+        "cas": 57,
+        "cas_pct": 0.5,
+        "taux": 309.6,
+        "imprecis": false
+      }
+    ]
+  },
+  {
+    "region": "Mercier–Hochelaga-Maisonneuve",
+    "series": [
+      {
+        "date_est": "2020-04-29 19:24",
+        "millis": 1588202640000,
+        "cas": 852,
+        "cas_pct": 7.2,
+        "taux": 626.4,
+        "imprecis": false
+      }
+    ]
+  },
+  {
+    "region": "Montréal-Est",
+    "series": [
+      {
+        "date_est": "2020-04-29 19:24",
+        "millis": 1588202640000,
+        "cas": 16,
+        "cas_pct": 0.1,
+        "taux": 415.6,
+        "imprecis": true
+      }
+    ]
+  },
+  {
+    "region": "Montréal-Nord",
+    "series": [
+      {
+        "date_est": "2020-04-29 19:24",
+        "millis": 1588202640000,
+        "cas": 1153,
+        "cas_pct": 9.7,
+        "taux": 1368.8,
+        "imprecis": false
+      }
+    ]
+  },
+  {
+    "region": "Montréal-Ouest",
+    "series": [
+      {
+        "date_est": "2020-04-29 19:24",
+        "millis": 1588202640000,
+        "cas": 10,
+        "cas_pct": 0.1,
+        "taux": 198,
+        "imprecis": true
+      }
+    ]
+  },
+  {
+    "region": "Mont-Royal",
+    "series": [
+      {
+        "date_est": "2020-04-29 19:24",
+        "millis": 1588202640000,
+        "cas": 104,
+        "cas_pct": 0,
+        "taux": 512.9,
+        "imprecis": false
+      }
+    ]
+  },
+  {
+    "region": "Outremont",
+    "series": [
+      {
+        "date_est": "2020-04-29 19:24",
+        "millis": 1588202640000,
+        "cas": 188,
+        "cas_pct": 1.6,
+        "taux": 784.8,
+        "imprecis": false
+      }
+    ]
+  },
+  {
+    "region": "Pierrefonds–Roxboro",
+    "series": [
+      {
+        "date_est": "2020-04-29 19:24",
+        "millis": 1588202640000,
+        "cas": 156,
+        "cas_pct": 1.3,
+        "taux": 225.1,
+        "imprecis": false
+      }
+    ]
+  },
+  {
+    "region": "Plateau-Mont-Royal",
+    "series": [
+      {
+        "date_est": "2020-04-29 19:24",
+        "millis": 1588202640000,
+        "cas": 508,
+        "cas_pct": 4.3,
+        "taux": 488.5,
+        "imprecis": false
+      }
+    ]
+  },
+  {
+    "region": "Pointe-Claire",
+    "series": [
+      {
+        "date_est": "2020-04-29 19:24",
+        "millis": 1588202640000,
+        "cas": 67,
+        "cas_pct": 0.6,
+        "taux": 213.5,
+        "imprecis": false
+      }
+    ]
+  },
+  {
+    "region": "Rivière-des-Prairies–Pointe-aux-Trembles",
+    "series": [
+      {
+        "date_est": "2020-04-29 19:24",
+        "millis": 1588202640000,
+        "cas": 908,
+        "cas_pct": 7.6,
+        "taux": 850.6,
+        "imprecis": false
+      }
+    ]
+  },
+  {
+    "region": "Rosemont–La Petite Patrie",
+    "series": [
+      {
+        "date_est": "2020-04-29 19:24",
+        "millis": 1588202640000,
+        "cas": 652,
+        "cas_pct": 5.5,
+        "taux": 467.1,
+        "imprecis": false
+      }
+    ]
+  },
+  {
+    "region": "Sainte-Anne-de-Bellevue",
+    "series": [
+      {
+        "date_est": "2020-04-29 19:24",
+        "millis": 1588202640000,
+        "cas": 9,
+        "cas_pct": 0.1,
+        "taux": null,
+        "imprecis": false
+      }
+    ]
+  },
+  {
+    "region": "Saint-Laurent",
+    "series": [
+      {
+        "date_est": "2020-04-29 19:24",
+        "millis": 1588202640000,
+        "cas": 452,
+        "cas_pct": 3.8,
+        "taux": 457.4,
+        "imprecis": false
+      }
+    ]
+  },
+  {
+    "region": "Saint-Léonard",
+    "series": [
+      {
+        "date_est": "2020-04-29 19:24",
+        "millis": 1588202640000,
+        "cas": 531,
+        "cas_pct": 4.5,
+        "taux": 678.1,
+        "imprecis": false
+      }
+    ]
+  },
+  {
+    "region": "Senneville",
+    "series": [
+      {
+        "date_est": "2020-04-29 19:24",
+        "millis": 1588202640000,
+        "cas": 5,
+        "cas_pct": 0,
+        "taux": null,
+        "imprecis": false
+      }
+    ]
+  },
+  {
+    "region": "Sud-Ouest",
+    "series": [
+      {
+        "date_est": "2020-04-29 19:24",
+        "millis": 1588202640000,
+        "cas": 525,
+        "cas_pct": 4.4,
+        "taux": 671.8,
+        "imprecis": false
+      }
+    ]
+  },
+  {
+    "region": "Verdun",
+    "series": [
+      {
+        "date_est": "2020-04-29 19:24",
+        "millis": 1588202640000,
+        "cas": 561,
+        "cas_pct": 4.7,
+        "taux": 810.4,
+        "imprecis": false
+      }
+    ]
+  },
+  {
+    "region": "Ville-Marie",
+    "series": [
+      {
+        "date_est": "2020-04-29 19:24",
+        "millis": 1588202640000,
+        "cas": 326,
+        "cas_pct": 2.7,
+        "taux": 365.6,
+        "imprecis": false
+      }
+    ]
+  },
+  {
+    "region": "Villeray–Saint-Michel–Parc-Extension",
+    "series": [
+      {
+        "date_est": "2020-04-29 19:24",
+        "millis": 1588202640000,
+        "cas": 909,
+        "cas_pct": 7.6,
+        "taux": 631.9,
+        "imprecis": false
+      }
+    ]
+  },
+  {
+    "region": "Westmount",
+    "series": [
+      {
+        "date_est": "2020-04-29 19:24",
+        "millis": 1588202640000,
+        "cas": 101,
+        "cas_pct": 0.8,
+        "taux": 497.2,
+        "imprecis": false
+      }
+    ]
+  },
+  {
+    "region": "Territoire à confirmer",
+    "series": [
+      {
+        "date_est": "2020-04-29 19:24",
+        "millis": 1588202640000,
+        "cas": 602,
+        "cas_pct": null,
+        "taux": null,
+        "imprecis": false
+      }
+    ]
+  },
+  {
+    "region": "Total à Montréal",
+    "series": [
+      {
+        "date_est": "2020-04-29 19:24",
+        "millis": 1588202640000,
+        "cas": 12487,
+        "cas_pct": null,
+        "taux": 604.5,
+        "imprecis": false
+      }
+    ]
+  }
+]
