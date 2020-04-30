@@ -2,8 +2,13 @@ const fs = require("fs");
 const path = require("path");
 const cheerio = require("cheerio");
 const { zonedTimeToUtc, utcToZonedTime, format } = require("date-fns-tz");
+const arrondissements = require("./resources/arrondissements.json");
+const lev = require("fast-levenshtein");
+const minBy = require("lodash.minby");
 
 const TIMEZONE = "America/Montreal";
+
+const normalize = (str) => str.toLowerCase().replace(/[^a-z0-9]/g, "");
 
 (async function () {
   const situationDir = path.join(__dirname, "raw", "montreal-situation");
@@ -53,20 +58,22 @@ const TIMEZONE = "America/Montreal";
       return numerized;
     };
 
-    const parseRow = (row) => ({
-      region: row[0].trim().replace(/[⁰¹²³⁴⁵⁶⁷⁸⁹]/g, ""),
-      series: [
-        {
-          date_est:
-            name.split(" ")[0] + " " + name.split(" ")[1].replace("h", ":"),
-          millis: date.getTime(),
-          cas: parseNum(row[1]),
-          cas_pct: parseNum(row[2]),
-          taux: parseNum(row[3]),
-          imprecis: row[3].includes("*"),
-        },
-      ],
-    });
+    const parseRow = (row) => {
+      return {
+        region: row[0].trim().replace(/[⁰¹²³⁴⁵⁶⁷⁸⁹]/g, ""),
+        series: [
+          {
+            date_est:
+              name.split(" ")[0] + " " + name.split(" ")[1].replace("h", ":"),
+            millis: date.getTime(),
+            cas: parseNum(row[1]),
+            cas_pct: parseNum(row[2]),
+            taux: parseNum(row[3]),
+            imprecis: row[3].includes("*"),
+          },
+        ],
+      };
+    };
 
     let tablerows = table.find("tr");
     let rowarr = Array.from(tablerows)
@@ -78,13 +85,32 @@ const TIMEZONE = "America/Montreal";
   let massagedData = data
     .map((d) => d.region)
     .filter((d, i, arr) => arr.indexOf(d) === i)
-    .map((region) => ({
-      region,
-      series: data
-        .filter((d) => d.region === region)
-        .flatMap((d) => d.series)
-        .sort((a, b) => b.date - a.date),
-    }));
+    .map((region) => {
+      let isRegionRow =
+        !region.toLowerCase().includes("total") &&
+        !region.toLowerCase().includes("confirmer");
+      let obj = {
+        munid: null,
+        codeid: null,
+        type: null,
+      };
+      if (isRegionRow) {
+        let closest = minBy(arrondissements, (d) =>
+          lev.get(normalize(region), normalize(d.NOM))
+        );
+        obj.munid = closest.MUNID;
+        obj.codeid = closest.CODEID;
+        obj.type = closest.TYPE;
+      }
+      return {
+        region,
+        ...obj,
+        series: data
+          .filter((d) => d.region === region)
+          .flatMap((d) => d.series)
+          .sort((a, b) => b.date - a.date),
+      };
+    });
 
   fs.writeFileSync(
     path.join(processedDir, "montreal-situation.json"),

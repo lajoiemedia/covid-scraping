@@ -1,0 +1,206 @@
+[
+  {
+    "NOM": "Le Sud-Ouest",
+    "MUNID": 66023,
+    "CODEID": "63",
+    "TYPE": "Arrondissement"
+  },
+  {
+    "NOM": "Verdun",
+    "MUNID": 66023,
+    "CODEID": "16",
+    "TYPE": "Arrondissement"
+  },
+  {
+    "NOM": "Ville-Marie",
+    "MUNID": 66023,
+    "CODEID": "9",
+    "TYPE": "Arrondissement"
+  },
+  {
+    "NOM": "Rivière-des-Prairies-Pointe-aux-Trembles",
+    "MUNID": 66023,
+    "CODEID": "57",
+    "TYPE": "Arrondissement"
+  },
+  {
+    "NOM": "LaSalle",
+    "MUNID": 66023,
+    "CODEID": "22",
+    "TYPE": "Arrondissement"
+  },
+  {
+    "NOM": "Outremont",
+    "MUNID": 66023,
+    "CODEID": "11",
+    "TYPE": "Arrondissement"
+  },
+  {
+    "NOM": "Mont-Royal",
+    "MUNID": 66023,
+    "CODEID": "62",
+    "TYPE": "Ville liée"
+  },
+  {
+    "NOM": "Le Plateau-Mont-Royal",
+    "MUNID": 66023,
+    "CODEID": "5",
+    "TYPE": "Arrondissement"
+  },
+  {
+    "NOM": "Hampstead",
+    "MUNID": 66023,
+    "CODEID": "54",
+    "TYPE": "Ville liée"
+  },
+  {
+    "NOM": "Lachine",
+    "MUNID": 66023,
+    "CODEID": "28",
+    "TYPE": "Arrondissement"
+  },
+  {
+    "NOM": "Dorval",
+    "MUNID": 66023,
+    "CODEID": "51",
+    "TYPE": "Ville liée"
+  },
+  {
+    "NOM": "Montréal-Nord",
+    "MUNID": 66023,
+    "CODEID": "2",
+    "TYPE": "Arrondissement"
+  },
+  {
+    "NOM": "L'Île-Bizard-Sainte-Geneviève",
+    "MUNID": 66023,
+    "CODEID": "39",
+    "TYPE": "Arrondissement"
+  },
+  {
+    "NOM": "Kirkland",
+    "MUNID": 66023,
+    "CODEID": "59",
+    "TYPE": "Ville liée"
+  },
+  {
+    "NOM": "Dollard-des-Ormeaux",
+    "MUNID": 66023,
+    "CODEID": "65",
+    "TYPE": "Ville liée"
+  },
+  {
+    "NOM": "Senneville",
+    "MUNID": 66023,
+    "CODEID": "43",
+    "TYPE": "Ville liée"
+  },
+  {
+    "NOM": "Ahuntsic-Cartierville",
+    "MUNID": 66023,
+    "CODEID": "4",
+    "TYPE": "Arrondissement"
+  },
+  {
+    "NOM": "Côte-Saint-Luc",
+    "MUNID": 66023,
+    "CODEID": "56",
+    "TYPE": "Ville liée"
+  },
+  {
+    "NOM": "Saint-Léonard",
+    "MUNID": 66023,
+    "CODEID": "6",
+    "TYPE": "Arrondissement"
+  },
+  {
+    "NOM": "Montréal-Ouest",
+    "MUNID": 66023,
+    "CODEID": "52",
+    "TYPE": "Ville liée"
+  },
+  {
+    "NOM": "Pointe-Claire",
+    "MUNID": 66023,
+    "CODEID": "47",
+    "TYPE": "Ville liée"
+  },
+  {
+    "NOM": "L'Île-Dorval",
+    "MUNID": 66023,
+    "CODEID": "50",
+    "TYPE": "Ville liée"
+  },
+  {
+    "NOM": "Mercier-Hochelaga-Maisonneuve",
+    "MUNID": 66023,
+    "CODEID": "10",
+    "TYPE": "Arrondissement"
+  },
+  {
+    "NOM": "Côte-des-Neiges-Notre-Dame-de-Grâce",
+    "MUNID": 66023,
+    "CODEID": "61",
+    "TYPE": "Arrondissement"
+  },
+  {
+    "NOM": "Rosemont-La Petite-Patrie",
+    "MUNID": 66023,
+    "CODEID": "8",
+    "TYPE": "Arrondissement"
+  },
+  {
+    "NOM": "Saint-Laurent",
+    "MUNID": 66023,
+    "CODEID": "29",
+    "TYPE": "Arrondissement"
+  },
+  {
+    "NOM": "Beaconsfield",
+    "MUNID": 66023,
+    "CODEID": "46",
+    "TYPE": "Ville liée"
+  },
+  {
+    "NOM": "Villeray-Saint-Michel-Parc-Extension",
+    "MUNID": 66023,
+    "CODEID": "66",
+    "TYPE": "Arrondissement"
+  },
+  {
+    "NOM": "Westmount",
+    "MUNID": 66023,
+    "CODEID": "64",
+    "TYPE": "Ville liée"
+  },
+  {
+    "NOM": "Montréal-Est",
+    "MUNID": 66023,
+    "CODEID": "60",
+    "TYPE": "Ville liée"
+  },
+  {
+    "NOM": "Anjou",
+    "MUNID": 66023,
+    "CODEID": "7",
+    "TYPE": "Arrondissement"
+  },
+  {
+    "NOM": "Pierrefonds-Roxboro",
+    "MUNID": 66023,
+    "CODEID": "38",
+    "TYPE": "Arrondissement"
+  },
+  {
+    "NOM": "Sainte-Anne-de-Bellevue",
+    "MUNID": 66023,
+    "CODEID": "44",
+    "TYPE": "Ville liée"
+  },
+  {
+    "NOM": "Baie-d'Urfé",
+    "MUNID": 66023,
+    "CODEID": "45",
+    "TYPE": "Ville liée"
+  }
+]
