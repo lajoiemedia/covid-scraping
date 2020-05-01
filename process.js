@@ -26,7 +26,7 @@ const normalize = (str) => str.toLowerCase().replace(/[^a-z0-9]/g, "");
     let $ = cheerio.load(
       fs.readFileSync(path.join(situationDir, name), { encoding: "utf8" })
     );
-    let table = $("#c38710 table")
+    let table = $("table")
       .filter((i, el) => {
         let ths = $(el).find("th");
         return (
@@ -69,7 +69,10 @@ const normalize = (str) => str.toLowerCase().replace(/[^a-z0-9]/g, "");
             cas: parseNum(row[1]),
             cas_pct: parseNum(row[2]),
             taux: parseNum(row[3]),
-            imprecis: row[3].includes("*"),
+            taux_imprecis: row[3].includes("*"),
+            morts: row.length > 4 ? parseNum(row[4]) : null,
+            taux_morts: row.length > 5 ? parseNum(row[5]) : null,
+            taux_morts_imprecis: row.length > 5 ? row[5].includes("*") : null,
           },
         ],
       };
