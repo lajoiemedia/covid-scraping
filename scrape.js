@@ -23,9 +23,16 @@ function getDateFromFileName(fileName) {
 (async function () {
   const situationDir = path.join(__dirname, "raw", "quebec-situation");
 
-  const response = await axios.get(
-    "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/"
-  );
+  let response;
+
+  try {
+    response = await axios.get(
+      "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/"
+    );
+  } catch (e) {
+    console.error(e.message);
+    return;
+  }
 
   let oldfiles = fs
     .readdirSync(situationDir)
@@ -55,10 +62,16 @@ function getDateFromFileName(fileName) {
 (async function () {
   const situationDir = path.join(__dirname, "raw", "quebec-chsld");
 
-  const response = await axios.get(
-    "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/Tableau-milieux-de-vie-COVID-19.pdf",
-    { responseType: "arraybuffer" }
-  );
+  let response;
+  try {
+    response = await axios.get(
+      "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/Tableau-milieux-de-vie-COVID-19.pdf",
+      { responseType: "arraybuffer" }
+    );
+  } catch (e) {
+    console.error(e.message);
+    return;
+  }
 
   let oldfiles = fs
     .readdirSync(situationDir)
@@ -86,9 +99,16 @@ function getDateFromFileName(fileName) {
 (async function () {
   const situationDir = path.join(__dirname, "raw", "montreal-situation");
 
-  const response = await axios.get(
-    "https://santemontreal.qc.ca/population/coronavirus-covid-19/"
-  );
+  let response;
+
+  try {
+    response = await axios.get(
+      "https://santemontreal.qc.ca/population/coronavirus-covid-19/"
+    );
+  } catch (e) {
+    console.error(e.message);
+    return;
+  }
 
   let oldfiles = fs
     .readdirSync(situationDir)
@@ -109,6 +129,46 @@ function getDateFromFileName(fileName) {
   if (!isRepeat) {
     fs.writeFileSync(
       path.join(situationDir, `${getCurrentDate()} montreal situation.html`),
+      response.data,
+      { encoding: "utf8" }
+    );
+  }
+})();
+
+(async function () {
+  const situationDir = path.join(__dirname, "raw", "montreal-emergency");
+
+  let response;
+  try {
+    response = await axios.get(
+      "https://santemontreal.qc.ca/professionnels/donnees-urgences-et-chirurgies/situation-des-salles-durgence/"
+    );
+  } catch (e) {
+    console.error(e.message);
+    return;
+  }
+
+  let oldfiles = fs
+    .readdirSync(situationDir)
+    .map((d) => path.join(situationDir, d))
+    .filter((d) => fs.statSync(d).isFile())
+    .slice()
+    .sort();
+  let isRepeat = false;
+  if (oldfiles.length > 0) {
+    let mostrecent = fs.readFileSync(oldfiles[oldfiles.length - 1], {
+      encoding: "utf8",
+    });
+    let $1 = cheerio.load(mostrecent);
+    let $2 = cheerio.load(response.data);
+    isRepeat =
+      $1(".important-wrapper .bodytext").html() ===
+      $2(".important-wrapper .bodytext").html();
+  }
+
+  if (!isRepeat) {
+    fs.writeFileSync(
+      path.join(situationDir, `${getCurrentDate()} montreal emergency.html`),
       response.data,
       { encoding: "utf8" }
     );
