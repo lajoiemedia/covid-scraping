@@ -3,12 +3,36 @@ const path = require("path");
 const cheerio = require("cheerio");
 const { zonedTimeToUtc, utcToZonedTime, format } = require("date-fns-tz");
 const arrondissements = require("./resources/arrondissements.json");
+const hospitals = require("./resources/hospitals.json");
 const lev = require("fast-levenshtein");
 const minBy = require("lodash.minby");
 
 const TIMEZONE = "America/Montreal";
 
 const normalize = (str) => str.toLowerCase().replace(/[^a-z0-9]/g, "");
+
+const MONTHS = {
+  janvier: "01",
+  février: "02",
+  mars: "03",
+  avril: "04",
+  mai: "05",
+  juin: "06",
+  juillet: "07",
+  août: "08",
+  septembre: "09",
+  octobre: "10",
+  novembre: "11",
+  décembre: "12",
+};
+
+const parseFrenchDate = (str) => {
+  let split = str.trim().split(" ");
+  return `${split[2]}-${MONTHS[split[1].toLowerCase()]}-${split[0].padStart(
+    2,
+    "0"
+  )}`;
+};
 
 (async function () {
   const situationDir = path.join(__dirname, "raw", "montreal-situation");
@@ -118,6 +142,80 @@ const normalize = (str) => str.toLowerCase().replace(/[^a-z0-9]/g, "");
   fs.writeFileSync(
     path.join(processedDir, "montreal-situation.json"),
     JSON.stringify(massagedData, null, 2),
+    { encoding: "utf8" }
+  );
+})();
+
+(async function () {
+  const rawDir = path.join(__dirname, "raw", "montreal-emergency");
+  const processedDir = path.join(__dirname, "processed", "montreal-emergency");
+  let files = fs
+    .readdirSync(rawDir)
+    .filter((d) => fs.statSync(path.join(rawDir, d)).isFile())
+    .slice()
+    .sort();
+
+  let data = [];
+  for (const file of files) {
+    let $ = cheerio.load(fs.readFileSync(path.join(rawDir, file), "utf8"));
+    let updatestr = $("td.a20").text();
+    let timestr = updatestr.match(/\d{1,2}h\d{2}/g)[0];
+    let datestr = updatestr.match(/\d{1,2} [A-z]+ \d{4}/g)[0];
+    let date = parseFrenchDate(datestr);
+    let time = timestr.replace("h", ":");
+    let jsdate = zonedTimeToUtc(date + " " + time, TIMEZONE);
+
+    let [access_date, access_time] = file.split(" ");
+    access_time = access_time.replace("h", ":");
+    let jsaccessdate = zonedTimeToUtc(
+      access_date + " " + access_time,
+      TIMEZONE
+    );
+
+    let curdata = [];
+    let curzone;
+    Array.from($("table.a245 tr")).forEach((el) => {
+      let tdlist = $(el).find("td");
+      let firsttd = tdlist.first();
+      if (firsttd.hasClass("a90cl")) {
+        curzone = firsttd.text();
+      } else if (firsttd.hasClass("a127c")) {
+        let tdcontent = Array.from(tdlist).map((d) => $(d).text());
+
+        let hospital = minBy(hospitals, (obj) =>
+          lev.get(normalize(tdcontent[0]), normalize(obj.name))
+        );
+
+        curdata.push({
+          name: tdcontent[0].trim(),
+          lon: hospital.lon,
+          lat: hospital.lat,
+          zone: curzone,
+          taux_occupation_civieres: +tdcontent[1],
+          civieres: +tdcontent[2],
+          patients_civieres: +tdcontent[3],
+          patients_civieres_24h: +tdcontent[3],
+          patients_civieres_48h: +tdcontent[4],
+          patients_ambulance: +tdcontent[5],
+          inscriptions: +tdcontent[6],
+          inscriptions_sag: +tdcontent[7],
+        });
+      }
+    });
+    data.push({
+      time,
+      date,
+      millis: jsdate.getTime(),
+      access_time,
+      access_date,
+      access_millis: jsaccessdate.getTime(),
+      values: curdata,
+    });
+  }
+
+  fs.writeFileSync(
+    path.join(processedDir, "montreal-emergency.json"),
+    JSON.stringify(data, null, 2),
     { encoding: "utf8" }
   );
 })();

@@ -1,0 +1,107 @@
+[
+  {
+    "name": "CHU Sainte-Justine",
+    "lon": -73.626163,
+    "lat": 45.5032575
+  },
+  {
+    "name": "Centre hospitalier de l'Université de Montréal",
+    "lon": -73.5596373,
+    "lat": 45.5112772
+  },
+  {
+    "name": "Hôpital Louis-H. Lafontaine",
+    "lon": -73.5333518,
+    "lat": 45.5907697
+  },
+  {
+    "name": "Hôpital Santa Cabrini",
+    "lon": -73.5736047,
+    "lat": 45.5795363
+  },
+  {
+    "name": "Pavillon Maisonneuve/Pavillon Marcel-Lamoureux",
+    "lon": -73.5621381,
+    "lat": 45.5741334
+  },
+  {
+    "name": "Centre hospitalier de St. Mary",
+    "lon": -73.6261464,
+    "lat": 45.4947833
+  },
+  {
+    "name": "Hôpital de LaSalle",
+    "lon": -73.625437,
+    "lat": 45.4204908
+  },
+  {
+    "name": "Hôpital Douglas",
+    "lon": -73.5861825,
+    "lat": 45.4420216
+  },
+  {
+    "name": "Hôpital général du Lakeshore",
+    "lon": -73.835546,
+    "lat": 45.4486551
+  },
+  {
+    "name": "L'Hôpital général juif Sir Mortimer B. Davis",
+    "lon": -73.6323993,
+    "lat": 45.496964
+  },
+  {
+    "name": "Hôpital de Verdun",
+    "lon": -73.5658182,
+    "lat": 45.4640199
+  },
+  {
+    "name": "Hôpital Notre-Dame",
+    "lon": -73.5664671,
+    "lat": 45.5257713
+  },
+  {
+    "name": "Hôpital du Sacré-Coeur de Montréal",
+    "lon": -73.7170693,
+    "lat": 45.5330858
+  },
+  {
+    "name": "Hôpital Fleury",
+    "lon": -73.6520919,
+    "lat": 45.5718911
+  },
+  {
+    "name": "Hôpital Jean-Talon",
+    "lon": -73.6114972,
+    "lat": 45.5457289
+  },
+  {
+    "name": "Pavillon Albert-Prévost",
+    "lon": -73.7310422,
+    "lat": 45.5277057
+  },
+  {
+    "name": "Hôpital de Lachine",
+    "lon": -73.6794192,
+    "lat": 45.4409721
+  },
+  {
+    "name": "Hôpital général de Montréal",
+    "lon": -73.5909881,
+    "lat": 45.4969886
+  },
+  {
+    "name": "Hôpital Royal Victoria",
+    "lon": -73.6037672,
+    "lat": 45.473266
+  },
+  {
+    "name": "L'hôpital de Montréal pour enfants",
+    "lon": -73.601123,
+    "lat": 45.473175
+  },
+  {
+    "name": "Institut de cardiologie de Montréal",
+    "lon": -73.5801683,
+    "lat": 45.5737345
+  }
+]

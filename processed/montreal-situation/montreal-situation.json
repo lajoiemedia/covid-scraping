@@ -28,14 +28,36 @@
         "taux_morts_imprecis": null
       },
       {
-        "date_est": "2020-05-01 17:03",
-        "millis": 1588366980000,
+        "date_est": "2020-05-01 20:07",
+        "millis": 1588378020000,
         "cas": 1185,
         "cas_pct": 8.8,
         "taux": 882.7,
         "taux_imprecis": false,
         "morts": 143,
         "taux_morts": 106.5,
+        "taux_morts_imprecis": false
+      },
+      {
+        "date_est": "2020-05-02 17:06",
+        "millis": 1588453560000,
+        "cas": 1229,
+        "cas_pct": 8.8,
+        "taux": 915.5,
+        "taux_imprecis": false,
+        "morts": 146,
+        "taux_morts": 108.8,
+        "taux_morts_imprecis": false
+      },
+      {
+        "date_est": "2020-05-03 14:08",
+        "millis": 1588529280000,
+        "cas": 1307,
+        "cas_pct": 8.4,
+        "taux": 973.6,
+        "taux_imprecis": false,
+        "morts": 152,
+        "taux_morts": 113.2,
         "taux_morts_imprecis": false
       }
     ]
@@ -69,14 +91,36 @@
         "taux_morts_imprecis": null
       },
       {
-        "date_est": "2020-05-01 17:03",
-        "millis": 1588366980000,
+        "date_est": "2020-05-01 20:07",
+        "millis": 1588378020000,
         "cas": 324,
         "cas_pct": 2.4,
         "taux": 757.1,
         "taux_imprecis": false,
         "morts": 14,
         "taux_morts": 32.7,
+        "taux_morts_imprecis": true
+      },
+      {
+        "date_est": "2020-05-02 17:06",
+        "millis": 1588453560000,
+        "cas": 333,
+        "cas_pct": 2.4,
+        "taux": 778.1,
+        "taux_imprecis": false,
+        "morts": 14,
+        "taux_morts": 32.7,
+        "taux_morts_imprecis": true
+      },
+      {
+        "date_est": "2020-05-03 14:08",
+        "millis": 1588529280000,
+        "cas": 347,
+        "cas_pct": 2.2,
+        "taux": 810.8,
+        "taux_imprecis": false,
+        "morts": 16,
+        "taux_morts": 37.4,
         "taux_morts_imprecis": true
       }
     ]
@@ -110,14 +154,36 @@
         "taux_morts_imprecis": null
       },
       {
-        "date_est": "2020-05-01 17:03",
-        "millis": 1588366980000,
+        "date_est": "2020-05-01 20:07",
+        "millis": 1588378020000,
         "cas": 6,
         "cas_pct": 0,
         "taux": null,
         "taux_imprecis": false,
         "morts": 0,
         "taux_morts": null,
+        "taux_morts_imprecis": false
+      },
+      {
+        "date_est": "2020-05-02 17:06",
+        "millis": 1588453560000,
+        "cas": 6,
+        "cas_pct": 0,
+        "taux": null,
+        "taux_imprecis": false,
+        "morts": 0,
+        "taux_morts": 0,
+        "taux_morts_imprecis": false
+      },
+      {
+        "date_est": "2020-05-03 14:08",
+        "millis": 1588529280000,
+        "cas": 9,
+        "cas_pct": 0.1,
+        "taux": null,
+        "taux_imprecis": false,
+        "morts": 0,
+        "taux_morts": 0,
         "taux_morts_imprecis": false
       }
     ]
@@ -151,12 +217,34 @@
         "taux_morts_imprecis": null
       },
       {
-        "date_est": "2020-05-01 17:03",
-        "millis": 1588366980000,
+        "date_est": "2020-05-01 20:07",
+        "millis": 1588378020000,
         "cas": 27,
         "cas_pct": 0.2,
         "taux": 139.7,
         "taux_imprecis": true,
+        "morts": 5,
+        "taux_morts": null,
+        "taux_morts_imprecis": false
+      },
+      {
+        "date_est": "2020-05-02 17:06",
+        "millis": 1588453560000,
+        "cas": 29,
+        "cas_pct": 0.2,
+        "taux": 150.1,
+        "taux_imprecis": true,
+        "morts": 5,
+        "taux_morts": null,
+        "taux_morts_imprecis": false
+      },
+      {
+        "date_est": "2020-05-03 14:08",
+        "millis": 1588529280000,
+        "cas": 40,
+        "cas_pct": 0.3,
+        "taux": 207,
+        "taux_imprecis": false,
         "morts": 5,
         "taux_morts": null,
         "taux_morts_imprecis": false
@@ -192,14 +280,36 @@
         "taux_morts_imprecis": null
       },
       {
-        "date_est": "2020-05-01 17:03",
-        "millis": 1588366980000,
+        "date_est": "2020-05-01 20:07",
+        "millis": 1588378020000,
         "cas": 1225,
         "cas_pct": 9.1,
         "taux": 735.6,
         "taux_imprecis": false,
         "morts": 124,
         "taux_morts": 74.5,
+        "taux_morts_imprecis": false
+      },
+      {
+        "date_est": "2020-05-02 17:06",
+        "millis": 1588453560000,
+        "cas": 1258,
+        "cas_pct": 9,
+        "taux": 755.5,
+        "taux_imprecis": false,
+        "morts": 128,
+        "taux_morts": 76.9,
+        "taux_morts_imprecis": false
+      },
+      {
+        "date_est": "2020-05-03 14:08",
+        "millis": 1588529280000,
+        "cas": 1375,
+        "cas_pct": 8.9,
+        "taux": 825.7,
+        "taux_imprecis": false,
+        "morts": 133,
+        "taux_morts": 79.9,
         "taux_morts_imprecis": false
       }
     ]
@@ -233,14 +343,36 @@
         "taux_morts_imprecis": null
       },
       {
-        "date_est": "2020-05-01 17:03",
-        "millis": 1588366980000,
+        "date_est": "2020-05-01 20:07",
+        "millis": 1588378020000,
         "cas": 354,
         "cas_pct": 2.6,
         "taux": 1091,
         "taux_imprecis": false,
         "morts": 13,
         "taux_morts": 40.1,
+        "taux_morts_imprecis": true
+      },
+      {
+        "date_est": "2020-05-02 17:06",
+        "millis": 1588453560000,
+        "cas": 367,
+        "cas_pct": 2.6,
+        "taux": 1131,
+        "taux_imprecis": false,
+        "morts": 14,
+        "taux_morts": 43.1,
+        "taux_morts_imprecis": true
+      },
+      {
+        "date_est": "2020-05-03 14:08",
+        "millis": 1588529280000,
+        "cas": 375,
+        "cas_pct": 2.4,
+        "taux": 1155.7,
+        "taux_imprecis": false,
+        "morts": 14,
+        "taux_morts": 43.1,
         "taux_morts_imprecis": true
       }
     ]
@@ -274,14 +406,36 @@
         "taux_morts_imprecis": null
       },
       {
-        "date_est": "2020-05-01 17:03",
-        "millis": 1588366980000,
+        "date_est": "2020-05-01 20:07",
+        "millis": 1588378020000,
         "cas": 184,
         "cas_pct": 1.4,
         "taux": 376.3,
         "taux_imprecis": false,
         "morts": 13,
         "taux_morts": 26.6,
+        "taux_morts_imprecis": true
+      },
+      {
+        "date_est": "2020-05-02 17:06",
+        "millis": 1588453560000,
+        "cas": 190,
+        "cas_pct": 1.4,
+        "taux": 388.6,
+        "taux_imprecis": false,
+        "morts": 14,
+        "taux_morts": 28.6,
+        "taux_morts_imprecis": true
+      },
+      {
+        "date_est": "2020-05-03 14:08",
+        "millis": 1588529280000,
+        "cas": 252,
+        "cas_pct": 1.6,
+        "taux": 515.3,
+        "taux_imprecis": false,
+        "morts": 14,
+        "taux_morts": 28.6,
         "taux_morts_imprecis": true
       }
     ]
@@ -315,11 +469,33 @@
         "taux_morts_imprecis": null
       },
       {
-        "date_est": "2020-05-01 17:03",
-        "millis": 1588366980000,
+        "date_est": "2020-05-01 20:07",
+        "millis": 1588378020000,
         "cas": 95,
         "cas_pct": 0.7,
         "taux": 500.5,
+        "taux_imprecis": false,
+        "morts": 26,
+        "taux_morts": 137,
+        "taux_morts_imprecis": true
+      },
+      {
+        "date_est": "2020-05-02 17:06",
+        "millis": 1588453560000,
+        "cas": 103,
+        "cas_pct": 0.7,
+        "taux": 542.7,
+        "taux_imprecis": false,
+        "morts": 26,
+        "taux_morts": 137,
+        "taux_morts_imprecis": true
+      },
+      {
+        "date_est": "2020-05-03 14:08",
+        "millis": 1588529280000,
+        "cas": 132,
+        "cas_pct": 0.9,
+        "taux": 695.5,
         "taux_imprecis": false,
         "morts": 26,
         "taux_morts": 137,
@@ -356,14 +532,36 @@
         "taux_morts_imprecis": null
       },
       {
-        "date_est": "2020-05-01 17:03",
-        "millis": 1588366980000,
+        "date_est": "2020-05-01 20:07",
+        "millis": 1588378020000,
         "cas": 38,
         "cas_pct": 0.3,
         "taux": 545,
         "taux_imprecis": false,
         "morts": 0,
         "taux_morts": null,
+        "taux_morts_imprecis": false
+      },
+      {
+        "date_est": "2020-05-02 17:06",
+        "millis": 1588453560000,
+        "cas": 39,
+        "cas_pct": 0.3,
+        "taux": 559.3,
+        "taux_imprecis": false,
+        "morts": 0,
+        "taux_morts": 0,
+        "taux_morts_imprecis": false
+      },
+      {
+        "date_est": "2020-05-03 14:08",
+        "millis": 1588529280000,
+        "cas": 39,
+        "cas_pct": 0.3,
+        "taux": 559.3,
+        "taux_imprecis": false,
+        "morts": 0,
+        "taux_morts": 0,
         "taux_morts_imprecis": false
       }
     ]
@@ -397,13 +595,35 @@
         "taux_morts_imprecis": null
       },
       {
-        "date_est": "2020-05-01 17:03",
-        "millis": 1588366980000,
+        "date_est": "2020-05-01 20:07",
+        "millis": 1588378020000,
         "cas": 52,
         "cas_pct": 0.4,
         "taux": 258.1,
         "taux_imprecis": false,
         "morts": 6,
+        "taux_morts": null,
+        "taux_morts_imprecis": false
+      },
+      {
+        "date_est": "2020-05-02 17:06",
+        "millis": 1588453560000,
+        "cas": 54,
+        "cas_pct": 0.4,
+        "taux": 268,
+        "taux_imprecis": false,
+        "morts": 7,
+        "taux_morts": null,
+        "taux_morts_imprecis": false
+      },
+      {
+        "date_est": "2020-05-03 14:08",
+        "millis": 1588529280000,
+        "cas": 70,
+        "cas_pct": 0.5,
+        "taux": 347.4,
+        "taux_imprecis": false,
+        "morts": 7,
         "taux_morts": null,
         "taux_morts_imprecis": false
       }
@@ -438,14 +658,36 @@
         "taux_morts_imprecis": null
       },
       {
-        "date_est": "2020-05-01 17:03",
-        "millis": 1588366980000,
+        "date_est": "2020-05-01 20:07",
+        "millis": 1588378020000,
         "cas": 186,
         "cas_pct": 1.4,
         "taux": 418.1,
         "taux_imprecis": false,
         "morts": 20,
         "taux_morts": 45,
+        "taux_morts_imprecis": true
+      },
+      {
+        "date_est": "2020-05-02 17:06",
+        "millis": 1588453560000,
+        "cas": 209,
+        "cas_pct": 1.5,
+        "taux": 469.8,
+        "taux_imprecis": false,
+        "morts": 20,
+        "taux_morts": 45,
+        "taux_morts_imprecis": true
+      },
+      {
+        "date_est": "2020-05-03 14:08",
+        "millis": 1588529280000,
+        "cas": 333,
+        "cas_pct": 2.2,
+        "taux": 748.5,
+        "taux_imprecis": false,
+        "morts": 22,
+        "taux_morts": 49.5,
         "taux_morts_imprecis": true
       }
     ]
@@ -479,14 +721,36 @@
         "taux_morts_imprecis": null
       },
       {
-        "date_est": "2020-05-01 17:03",
-        "millis": 1588366980000,
+        "date_est": "2020-05-01 20:07",
+        "millis": 1588378020000,
         "cas": 561,
         "cas_pct": 4.2,
         "taux": 730,
         "taux_imprecis": false,
         "morts": 83,
         "taux_morts": 108,
+        "taux_morts_imprecis": false
+      },
+      {
+        "date_est": "2020-05-02 17:06",
+        "millis": 1588453560000,
+        "cas": 586,
+        "cas_pct": 4.2,
+        "taux": 762.5,
+        "taux_imprecis": false,
+        "morts": 91,
+        "taux_morts": 118.4,
+        "taux_morts_imprecis": false
+      },
+      {
+        "date_est": "2020-05-03 14:08",
+        "millis": 1588529280000,
+        "cas": 829,
+        "cas_pct": 5.4,
+        "taux": 1078.7,
+        "taux_imprecis": false,
+        "morts": 92,
+        "taux_morts": 119.7,
         "taux_morts_imprecis": false
       }
     ]
@@ -520,13 +784,35 @@
         "taux_morts_imprecis": null
       },
       {
-        "date_est": "2020-05-01 17:03",
-        "millis": 1588366980000,
+        "date_est": "2020-05-01 20:07",
+        "millis": 1588378020000,
         "cas": 76,
         "cas_pct": 0.6,
         "taux": 412.8,
         "taux_imprecis": false,
         "morts": 8,
+        "taux_morts": null,
+        "taux_morts_imprecis": false
+      },
+      {
+        "date_est": "2020-05-02 17:06",
+        "millis": 1588453560000,
+        "cas": 88,
+        "cas_pct": 0.6,
+        "taux": 477.9,
+        "taux_imprecis": false,
+        "morts": 9,
+        "taux_morts": null,
+        "taux_morts_imprecis": false
+      },
+      {
+        "date_est": "2020-05-03 14:08",
+        "millis": 1588529280000,
+        "cas": 116,
+        "cas_pct": 0.7,
+        "taux": 630,
+        "taux_imprecis": false,
+        "morts": 9,
         "taux_morts": null,
         "taux_morts_imprecis": false
       }
@@ -561,14 +847,36 @@
         "taux_morts_imprecis": null
       },
       {
-        "date_est": "2020-05-01 17:03",
-        "millis": 1588366980000,
+        "date_est": "2020-05-01 20:07",
+        "millis": 1588378020000,
         "cas": 1014,
         "cas_pct": 7.6,
         "taux": 745.5,
         "taux_imprecis": false,
         "morts": 111,
         "taux_morts": 81.6,
+        "taux_morts_imprecis": false
+      },
+      {
+        "date_est": "2020-05-02 17:06",
+        "millis": 1588453560000,
+        "cas": 1075,
+        "cas_pct": 7.7,
+        "taux": 790.3,
+        "taux_imprecis": false,
+        "morts": 122,
+        "taux_morts": 89.7,
+        "taux_morts_imprecis": false
+      },
+      {
+        "date_est": "2020-05-03 14:08",
+        "millis": 1588529280000,
+        "cas": 1150,
+        "cas_pct": 7.4,
+        "taux": 845.4,
+        "taux_imprecis": false,
+        "morts": 125,
+        "taux_morts": 91.9,
         "taux_morts_imprecis": false
       }
     ]
@@ -602,14 +910,36 @@
         "taux_morts_imprecis": null
       },
       {
-        "date_est": "2020-05-01 17:03",
-        "millis": 1588366980000,
+        "date_est": "2020-05-01 20:07",
+        "millis": 1588378020000,
         "cas": 18,
         "cas_pct": 0.1,
         "taux": 467.5,
         "taux_imprecis": true,
         "morts": 0,
         "taux_morts": null,
+        "taux_morts_imprecis": false
+      },
+      {
+        "date_est": "2020-05-02 17:06",
+        "millis": 1588453560000,
+        "cas": 21,
+        "cas_pct": 0.1,
+        "taux": 545.5,
+        "taux_imprecis": true,
+        "morts": 0,
+        "taux_morts": 0,
+        "taux_morts_imprecis": false
+      },
+      {
+        "date_est": "2020-05-03 14:08",
+        "millis": 1588529280000,
+        "cas": 22,
+        "cas_pct": 0.1,
+        "taux": 571.4,
+        "taux_imprecis": true,
+        "morts": 0,
+        "taux_morts": 0,
         "taux_morts_imprecis": false
       }
     ]
@@ -643,14 +973,36 @@
         "taux_morts_imprecis": null
       },
       {
-        "date_est": "2020-05-01 17:03",
-        "millis": 1588366980000,
+        "date_est": "2020-05-01 20:07",
+        "millis": 1588378020000,
         "cas": 1316,
         "cas_pct": 9.8,
         "taux": 1562.3,
         "taux_imprecis": false,
         "morts": 70,
         "taux_morts": 83.1,
+        "taux_morts_imprecis": false
+      },
+      {
+        "date_est": "2020-05-02 17:06",
+        "millis": 1588453560000,
+        "cas": 1377,
+        "cas_pct": 9.8,
+        "taux": 1634.7,
+        "taux_imprecis": false,
+        "morts": 77,
+        "taux_morts": 91.4,
+        "taux_morts_imprecis": false
+      },
+      {
+        "date_est": "2020-05-03 14:08",
+        "millis": 1588529280000,
+        "cas": 1423,
+        "cas_pct": 9.2,
+        "taux": 1689.3,
+        "taux_imprecis": false,
+        "morts": 82,
+        "taux_morts": 97.3,
         "taux_morts_imprecis": false
       }
     ]
@@ -684,11 +1036,33 @@
         "taux_morts_imprecis": null
       },
       {
-        "date_est": "2020-05-01 17:03",
-        "millis": 1588366980000,
+        "date_est": "2020-05-01 20:07",
+        "millis": 1588378020000,
         "cas": 11,
         "cas_pct": 0.1,
         "taux": 217.8,
+        "taux_imprecis": true,
+        "morts": 5,
+        "taux_morts": null,
+        "taux_morts_imprecis": false
+      },
+      {
+        "date_est": "2020-05-02 17:06",
+        "millis": 1588453560000,
+        "cas": 11,
+        "cas_pct": 0.1,
+        "taux": 217.8,
+        "taux_imprecis": true,
+        "morts": 5,
+        "taux_morts": null,
+        "taux_morts_imprecis": false
+      },
+      {
+        "date_est": "2020-05-03 14:08",
+        "millis": 1588529280000,
+        "cas": 14,
+        "cas_pct": 0.1,
+        "taux": 277.2,
         "taux_imprecis": true,
         "morts": 5,
         "taux_morts": null,
@@ -725,14 +1099,36 @@
         "taux_morts_imprecis": null
       },
       {
-        "date_est": "2020-05-01 17:03",
-        "millis": 1588366980000,
+        "date_est": "2020-05-01 20:07",
+        "millis": 1588378020000,
         "cas": 125,
         "cas_pct": 0.9,
         "taux": 616.5,
         "taux_imprecis": false,
         "morts": 43,
         "taux_morts": 212.1,
+        "taux_morts_imprecis": false
+      },
+      {
+        "date_est": "2020-05-02 17:06",
+        "millis": 1588453560000,
+        "cas": 133,
+        "cas_pct": 0.9,
+        "taux": 655.9,
+        "taux_imprecis": false,
+        "morts": 44,
+        "taux_morts": 217,
+        "taux_morts_imprecis": false
+      },
+      {
+        "date_est": "2020-05-03 14:08",
+        "millis": 1588529280000,
+        "cas": 186,
+        "cas_pct": 1.2,
+        "taux": 917.3,
+        "taux_imprecis": false,
+        "morts": 46,
+        "taux_morts": 226.9,
         "taux_morts_imprecis": false
       }
     ]
@@ -766,13 +1162,35 @@
         "taux_morts_imprecis": null
       },
       {
-        "date_est": "2020-05-01 17:03",
-        "millis": 1588366980000,
+        "date_est": "2020-05-01 20:07",
+        "millis": 1588378020000,
         "cas": 194,
         "cas_pct": 1.4,
         "taux": 809.9,
         "taux_imprecis": false,
         "morts": 6,
+        "taux_morts": null,
+        "taux_morts_imprecis": false
+      },
+      {
+        "date_est": "2020-05-02 17:06",
+        "millis": 1588453560000,
+        "cas": 196,
+        "cas_pct": 1.4,
+        "taux": 818.2,
+        "taux_imprecis": false,
+        "morts": 6,
+        "taux_morts": null,
+        "taux_morts_imprecis": false
+      },
+      {
+        "date_est": "2020-05-03 14:08",
+        "millis": 1588529280000,
+        "cas": 209,
+        "cas_pct": 1.4,
+        "taux": 872.5,
+        "taux_imprecis": false,
+        "morts": 7,
         "taux_morts": null,
         "taux_morts_imprecis": false
       }
@@ -807,11 +1225,33 @@
         "taux_morts_imprecis": null
       },
       {
-        "date_est": "2020-05-01 17:03",
-        "millis": 1588366980000,
+        "date_est": "2020-05-01 20:07",
+        "millis": 1588378020000,
         "cas": 192,
         "cas_pct": 1.4,
         "taux": 277.1,
+        "taux_imprecis": false,
+        "morts": 18,
+        "taux_morts": 26,
+        "taux_morts_imprecis": true
+      },
+      {
+        "date_est": "2020-05-02 17:06",
+        "millis": 1588453560000,
+        "cas": 201,
+        "cas_pct": 1.4,
+        "taux": 290.1,
+        "taux_imprecis": false,
+        "morts": 18,
+        "taux_morts": 26,
+        "taux_morts_imprecis": true
+      },
+      {
+        "date_est": "2020-05-03 14:08",
+        "millis": 1588529280000,
+        "cas": 287,
+        "cas_pct": 1.9,
+        "taux": 414.2,
         "taux_imprecis": false,
         "morts": 18,
         "taux_morts": 26,
@@ -848,14 +1288,36 @@
         "taux_morts_imprecis": null
       },
       {
-        "date_est": "2020-05-01 17:03",
-        "millis": 1588366980000,
+        "date_est": "2020-05-01 20:07",
+        "millis": 1588378020000,
         "cas": 566,
         "cas_pct": 4.2,
         "taux": 544.2,
         "taux_imprecis": false,
         "morts": 37,
         "taux_morts": 35.6,
+        "taux_morts_imprecis": false
+      },
+      {
+        "date_est": "2020-05-02 17:06",
+        "millis": 1588453560000,
+        "cas": 579,
+        "cas_pct": 4.1,
+        "taux": 556.7,
+        "taux_imprecis": false,
+        "morts": 43,
+        "taux_morts": 41.3,
+        "taux_morts_imprecis": false
+      },
+      {
+        "date_est": "2020-05-03 14:08",
+        "millis": 1588529280000,
+        "cas": 609,
+        "cas_pct": 3.9,
+        "taux": 585.6,
+        "taux_imprecis": false,
+        "morts": 44,
+        "taux_morts": 42.3,
         "taux_morts_imprecis": false
       }
     ]
@@ -889,14 +1351,36 @@
         "taux_morts_imprecis": null
       },
       {
-        "date_est": "2020-05-01 17:03",
-        "millis": 1588366980000,
+        "date_est": "2020-05-01 20:07",
+        "millis": 1588378020000,
         "cas": 83,
         "cas_pct": 0.6,
         "taux": 264.5,
         "taux_imprecis": false,
         "morts": 12,
         "taux_morts": 38.2,
+        "taux_morts_imprecis": true
+      },
+      {
+        "date_est": "2020-05-02 17:06",
+        "millis": 1588453560000,
+        "cas": 87,
+        "cas_pct": 0.6,
+        "taux": 277.2,
+        "taux_imprecis": false,
+        "morts": 13,
+        "taux_morts": 41.4,
+        "taux_morts_imprecis": true
+      },
+      {
+        "date_est": "2020-05-03 14:08",
+        "millis": 1588529280000,
+        "cas": 126,
+        "cas_pct": 0.8,
+        "taux": 401.5,
+        "taux_imprecis": false,
+        "morts": 13,
+        "taux_morts": 41.4,
         "taux_morts_imprecis": true
       }
     ]
@@ -930,8 +1414,8 @@
         "taux_morts_imprecis": null
       },
       {
-        "date_est": "2020-05-01 17:03",
-        "millis": 1588366980000,
+        "date_est": "2020-05-01 20:07",
+        "millis": 1588378020000,
         "cas": 1029,
         "cas_pct": 7.7,
         "taux": 964,
@@ -939,6 +1423,28 @@
         "morts": 36,
         "taux_morts": 33.7,
         "taux_morts_imprecis": true
+      },
+      {
+        "date_est": "2020-05-02 17:06",
+        "millis": 1588453560000,
+        "cas": 1079,
+        "cas_pct": 7.7,
+        "taux": 1010.8,
+        "taux_imprecis": false,
+        "morts": 39,
+        "taux_morts": 36.5,
+        "taux_morts_imprecis": true
+      },
+      {
+        "date_est": "2020-05-03 14:08",
+        "millis": 1588529280000,
+        "cas": 1130,
+        "cas_pct": 7.3,
+        "taux": 1058.6,
+        "taux_imprecis": false,
+        "morts": 43,
+        "taux_morts": 40.3,
+        "taux_morts_imprecis": false
       }
     ]
   },
@@ -971,14 +1477,36 @@
         "taux_morts_imprecis": null
       },
       {
-        "date_est": "2020-05-01 17:03",
-        "millis": 1588366980000,
+        "date_est": "2020-05-01 20:07",
+        "millis": 1588378020000,
         "cas": 777,
         "cas_pct": 5.8,
         "taux": 556.6,
         "taux_imprecis": false,
         "morts": 64,
         "taux_morts": 45.8,
+        "taux_morts_imprecis": false
+      },
+      {
+        "date_est": "2020-05-02 17:06",
+        "millis": 1588453560000,
+        "cas": 837,
+        "cas_pct": 6,
+        "taux": 599.6,
+        "taux_imprecis": false,
+        "morts": 72,
+        "taux_morts": 51.6,
+        "taux_morts_imprecis": false
+      },
+      {
+        "date_est": "2020-05-03 14:08",
+        "millis": 1588529280000,
+        "cas": 885,
+        "cas_pct": 5.7,
+        "taux": 634,
+        "taux_imprecis": false,
+        "morts": 73,
+        "taux_morts": 52.3,
         "taux_morts_imprecis": false
       }
     ]
@@ -1012,11 +1540,33 @@
         "taux_morts_imprecis": null
       },
       {
-        "date_est": "2020-05-01 17:03",
-        "millis": 1588366980000,
+        "date_est": "2020-05-01 20:07",
+        "millis": 1588378020000,
         "cas": 10,
         "cas_pct": 0.1,
         "taux": 201.7,
+        "taux_imprecis": true,
+        "morts": 5,
+        "taux_morts": null,
+        "taux_morts_imprecis": false
+      },
+      {
+        "date_est": "2020-05-02 17:06",
+        "millis": 1588453560000,
+        "cas": 12,
+        "cas_pct": 0.1,
+        "taux": 242,
+        "taux_imprecis": true,
+        "morts": 5,
+        "taux_morts": null,
+        "taux_morts_imprecis": false
+      },
+      {
+        "date_est": "2020-05-03 14:08",
+        "millis": 1588529280000,
+        "cas": 13,
+        "cas_pct": 0.1,
+        "taux": 262.2,
         "taux_imprecis": true,
         "morts": 5,
         "taux_morts": null,
@@ -1053,14 +1603,36 @@
         "taux_morts_imprecis": null
       },
       {
-        "date_est": "2020-05-01 17:03",
-        "millis": 1588366980000,
+        "date_est": "2020-05-01 20:07",
+        "millis": 1588378020000,
         "cas": 518,
         "cas_pct": 3.9,
         "taux": 524.1,
         "taux_imprecis": false,
         "morts": 47,
         "taux_morts": 47.6,
+        "taux_morts_imprecis": false
+      },
+      {
+        "date_est": "2020-05-02 17:06",
+        "millis": 1588453560000,
+        "cas": 534,
+        "cas_pct": 3.8,
+        "taux": 540.3,
+        "taux_imprecis": false,
+        "morts": 47,
+        "taux_morts": 47.6,
+        "taux_morts_imprecis": false
+      },
+      {
+        "date_est": "2020-05-03 14:08",
+        "millis": 1588529280000,
+        "cas": 586,
+        "cas_pct": 3.8,
+        "taux": 592.9,
+        "taux_imprecis": false,
+        "morts": 54,
+        "taux_morts": 54.6,
         "taux_morts_imprecis": false
       }
     ]
@@ -1094,14 +1666,36 @@
         "taux_morts_imprecis": null
       },
       {
-        "date_est": "2020-05-01 17:03",
-        "millis": 1588366980000,
+        "date_est": "2020-05-01 20:07",
+        "millis": 1588378020000,
         "cas": 582,
         "cas_pct": 4.3,
         "taux": 743.2,
         "taux_imprecis": false,
         "morts": 20,
         "taux_morts": 25.5,
+        "taux_morts_imprecis": true
+      },
+      {
+        "date_est": "2020-05-02 17:06",
+        "millis": 1588453560000,
+        "cas": 600,
+        "cas_pct": 4.3,
+        "taux": 766.2,
+        "taux_imprecis": false,
+        "morts": 20,
+        "taux_morts": 25.5,
+        "taux_morts_imprecis": true
+      },
+      {
+        "date_est": "2020-05-03 14:08",
+        "millis": 1588529280000,
+        "cas": 616,
+        "cas_pct": 4,
+        "taux": 786.7,
+        "taux_imprecis": false,
+        "morts": 24,
+        "taux_morts": 30.6,
         "taux_morts_imprecis": true
       }
     ]
@@ -1135,14 +1729,36 @@
         "taux_morts_imprecis": null
       },
       {
-        "date_est": "2020-05-01 17:03",
-        "millis": 1588366980000,
+        "date_est": "2020-05-01 20:07",
+        "millis": 1588378020000,
         "cas": 5,
         "cas_pct": 0,
         "taux": null,
         "taux_imprecis": false,
         "morts": 0,
         "taux_morts": null,
+        "taux_morts_imprecis": false
+      },
+      {
+        "date_est": "2020-05-02 17:06",
+        "millis": 1588453560000,
+        "cas": 5,
+        "cas_pct": 0,
+        "taux": null,
+        "taux_imprecis": false,
+        "morts": 0,
+        "taux_morts": 0,
+        "taux_morts_imprecis": false
+      },
+      {
+        "date_est": "2020-05-03 14:08",
+        "millis": 1588529280000,
+        "cas": 5,
+        "cas_pct": 0,
+        "taux": null,
+        "taux_imprecis": false,
+        "morts": 0,
+        "taux_morts": 0,
         "taux_morts_imprecis": false
       }
     ]
@@ -1176,14 +1792,36 @@
         "taux_morts_imprecis": null
       },
       {
-        "date_est": "2020-05-01 17:03",
-        "millis": 1588366980000,
+        "date_est": "2020-05-01 20:07",
+        "millis": 1588378020000,
         "cas": 563,
         "cas_pct": 4.2,
         "taux": 720.4,
         "taux_imprecis": false,
         "morts": 108,
         "taux_morts": 138.2,
+        "taux_morts_imprecis": false
+      },
+      {
+        "date_est": "2020-05-02 17:06",
+        "millis": 1588453560000,
+        "cas": 608,
+        "cas_pct": 4.3,
+        "taux": 778,
+        "taux_imprecis": false,
+        "morts": 116,
+        "taux_morts": 148.4,
+        "taux_morts_imprecis": false
+      },
+      {
+        "date_est": "2020-05-03 14:08",
+        "millis": 1588529280000,
+        "cas": 649,
+        "cas_pct": 4.2,
+        "taux": 830.4,
+        "taux_imprecis": false,
+        "morts": 118,
+        "taux_morts": 151,
         "taux_morts_imprecis": false
       }
     ]
@@ -1217,14 +1855,36 @@
         "taux_morts_imprecis": null
       },
       {
-        "date_est": "2020-05-01 17:03",
-        "millis": 1588366980000,
+        "date_est": "2020-05-01 20:07",
+        "millis": 1588378020000,
         "cas": 620,
         "cas_pct": 4.6,
         "taux": 895.6,
         "taux_imprecis": false,
         "morts": 86,
         "taux_morts": 124.2,
+        "taux_morts_imprecis": false
+      },
+      {
+        "date_est": "2020-05-02 17:06",
+        "millis": 1588453560000,
+        "cas": 635,
+        "cas_pct": 4.5,
+        "taux": 917.2,
+        "taux_imprecis": false,
+        "morts": 86,
+        "taux_morts": 124.2,
+        "taux_morts_imprecis": false
+      },
+      {
+        "date_est": "2020-05-03 14:08",
+        "millis": 1588529280000,
+        "cas": 678,
+        "cas_pct": 4.4,
+        "taux": 979.4,
+        "taux_imprecis": false,
+        "morts": 88,
+        "taux_morts": 127.1,
         "taux_morts_imprecis": false
       }
     ]
@@ -1258,11 +1918,33 @@
         "taux_morts_imprecis": null
       },
       {
-        "date_est": "2020-05-01 17:03",
-        "millis": 1588366980000,
+        "date_est": "2020-05-01 20:07",
+        "millis": 1588378020000,
         "cas": 353,
         "cas_pct": 2.6,
         "taux": 395.9,
+        "taux_imprecis": false,
+        "morts": 25,
+        "taux_morts": 28,
+        "taux_morts_imprecis": true
+      },
+      {
+        "date_est": "2020-05-02 17:06",
+        "millis": 1588453560000,
+        "cas": 366,
+        "cas_pct": 2.6,
+        "taux": 410.5,
+        "taux_imprecis": false,
+        "morts": 25,
+        "taux_morts": 28,
+        "taux_morts_imprecis": true
+      },
+      {
+        "date_est": "2020-05-03 14:08",
+        "millis": 1588529280000,
+        "cas": 399,
+        "cas_pct": 2.6,
+        "taux": 447.5,
         "taux_imprecis": false,
         "morts": 25,
         "taux_morts": 28,
@@ -1299,14 +1981,36 @@
         "taux_morts_imprecis": null
       },
       {
-        "date_est": "2020-05-01 17:03",
-        "millis": 1588366980000,
+        "date_est": "2020-05-01 20:07",
+        "millis": 1588378020000,
         "cas": 998,
         "cas_pct": 7.4,
         "taux": 693.8,
         "taux_imprecis": false,
         "morts": 63,
         "taux_morts": 43.8,
+        "taux_morts_imprecis": false
+      },
+      {
+        "date_est": "2020-05-02 17:06",
+        "millis": 1588453560000,
+        "cas": 1047,
+        "cas_pct": 7.5,
+        "taux": 727.8,
+        "taux_imprecis": false,
+        "morts": 66,
+        "taux_morts": 45.9,
+        "taux_morts_imprecis": false
+      },
+      {
+        "date_est": "2020-05-03 14:08",
+        "millis": 1588529280000,
+        "cas": 1139,
+        "cas_pct": 7.4,
+        "taux": 791.8,
+        "taux_imprecis": false,
+        "morts": 67,
+        "taux_morts": 46.6,
         "taux_morts_imprecis": false
       }
     ]
@@ -1340,8 +2044,8 @@
         "taux_morts_imprecis": null
       },
       {
-        "date_est": "2020-05-01 17:03",
-        "millis": 1588366980000,
+        "date_est": "2020-05-01 20:07",
+        "millis": 1588378020000,
         "cas": 113,
         "cas_pct": 0.8,
         "taux": 556.3,
@@ -1349,6 +2053,28 @@
         "morts": 9,
         "taux_morts": null,
         "taux_morts_imprecis": false
+      },
+      {
+        "date_est": "2020-05-02 17:06",
+        "millis": 1588453560000,
+        "cas": 118,
+        "cas_pct": 0.8,
+        "taux": 580.9,
+        "taux_imprecis": false,
+        "morts": 10,
+        "taux_morts": 49.2,
+        "taux_morts_imprecis": true
+      },
+      {
+        "date_est": "2020-05-03 14:08",
+        "millis": 1588529280000,
+        "cas": 128,
+        "cas_pct": 0.8,
+        "taux": 630.2,
+        "taux_imprecis": false,
+        "morts": 11,
+        "taux_morts": 54.2,
+        "taux_morts_imprecis": true
       }
     ]
   },
@@ -1381,13 +2107,35 @@
         "taux_morts_imprecis": null
       },
       {
-        "date_est": "2020-05-01 17:03",
-        "millis": 1588366980000,
+        "date_est": "2020-05-01 20:07",
+        "millis": 1588378020000,
         "cas": 583,
         "cas_pct": null,
         "taux": null,
         "taux_imprecis": false,
         "morts": 33,
+        "taux_morts": null,
+        "taux_morts_imprecis": false
+      },
+      {
+        "date_est": "2020-05-02 17:06",
+        "millis": 1588453560000,
+        "cas": 591,
+        "cas_pct": null,
+        "taux": null,
+        "taux_imprecis": false,
+        "morts": 32,
+        "taux_morts": null,
+        "taux_morts_imprecis": false
+      },
+      {
+        "date_est": "2020-05-03 14:08",
+        "millis": 1588529280000,
+        "cas": 777,
+        "cas_pct": null,
+        "taux": null,
+        "taux_imprecis": false,
+        "morts": 35,
         "taux_morts": null,
         "taux_morts_imprecis": false
       }
@@ -1422,14 +2170,36 @@
         "taux_morts_imprecis": null
       },
       {
-        "date_est": "2020-05-01 17:03",
-        "millis": 1588366980000,
+        "date_est": "2020-05-01 20:07",
+        "millis": 1588378020000,
         "cas": 13979,
         "cas_pct": null,
         "taux": 676.7,
         "taux_imprecis": false,
         "morts": 1245,
         "taux_morts": 60.3,
+        "taux_morts_imprecis": false
+      },
+      {
+        "date_est": "2020-05-02 17:06",
+        "millis": 1588453560000,
+        "cas": 14599,
+        "cas_pct": null,
+        "taux": 706.7,
+        "taux_imprecis": false,
+        "morts": 1312,
+        "taux_morts": 63.5,
+        "taux_morts_imprecis": false
+      },
+      {
+        "date_est": "2020-05-03 14:08",
+        "millis": 1588529280000,
+        "cas": 16251,
+        "cas_pct": null,
+        "taux": 786.7,
+        "taux_imprecis": false,
+        "morts": 1365,
+        "taux_morts": 66.1,
         "taux_morts_imprecis": false
       }
     ]
