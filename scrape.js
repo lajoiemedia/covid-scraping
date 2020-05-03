@@ -141,7 +141,7 @@ function getDateFromFileName(fileName) {
   let response;
   try {
     response = await axios.get(
-      "https://santemontreal.qc.ca/professionnels/donnees-urgences-et-chirurgies/situation-des-salles-durgence/"
+      "https://santemontreal.qc.ca/fileadmin/fichiers_portail/Donnees_urgence/urgence_quotidien_media.html"
     );
   } catch (e) {
     console.error(e.message);
@@ -161,9 +161,7 @@ function getDateFromFileName(fileName) {
     });
     let $1 = cheerio.load(mostrecent);
     let $2 = cheerio.load(response.data);
-    isRepeat =
-      $1(".important-wrapper .bodytext").html() ===
-      $2(".important-wrapper .bodytext").html();
+    isRepeat = $1(".ap").html() === $2(".ap").html();
   }
 
   if (!isRepeat) {
